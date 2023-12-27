@@ -1,15 +1,13 @@
-class  SitesController{
-
+class SitesController {
     //Get /HOME
-    home(req, res){
-        res.render('home') 
+    home(req, res) {
+        res.render('home');
     }
 
     //GET /news: slug
-    search(req,res){
-        res.render('search') 
+    search(req, res) {
+        res.render('search');
     }
-
 }
 
-module.exports = new SitesController;
+module.exports = new SitesController();
