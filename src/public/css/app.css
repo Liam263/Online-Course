@@ -1,13 +1,12 @@
-h1 {
-  font-size: 3rem;
-  color: blue;
-  width: 200px;
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px;
 }
 
-h2 {
-  font-size: 1rem;
-  color: green;
-  width: 100px;
+.card-course-item {
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=app.css.map */
